@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94C8ABC7-5DF0-4BC9-B76D-8B8E1B8BCDB8}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HSp.CsEpo</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HSp.CsEpo</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccAuxPath>
+    </SccAuxPath>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Epo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoBaseView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoCached.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoCacheEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoCacheStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoClassInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoClassInfoStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoGeneric.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoGenericCached.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoGenericClassInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoGenericTableInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoInternal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoJoin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoJoinClassInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoJoinRestrict.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoMemo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoPick.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoViewedLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EpoVisInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FieldInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JoinViewSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
